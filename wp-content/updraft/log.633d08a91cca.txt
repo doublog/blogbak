@@ -1,0 +1,391 @@
+0000.002 (0) Opened log file at time: Tue, 06 Apr 2021 16:05:07 +0000 on https://www.doublog.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.46.24 WP: 5.6 PHP: 7.4.13 (cgi-fcgi, Linux k2.xrea.com 4.4.0-197-generic #229-Ubuntu SMP Wed Nov 25 11:05:42 UTC 2020 x86_64) MySQL: 5.7.32-log WPLANG: zh_CN Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 500M (used: 8.4M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 4314552.3 MB
+0000.011 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB:  (schedule: every2hours)
+0000.014 (0) Processed schedules. Combining jobs from co-inciding events. Tasks now: Backup files: 1 Backup DB: 1
+0000.027 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1617681920, seconds_ago=43187)
+0000.033 (0) Set semaphore last lock (fd) time to 2021-04-06 16:05:07
+0000.034 (0) Semaphore lock (fd) complete
+0000.039 (0) Backup run: resumption=0, nonce=633d08a91cca, file_nonce=633d08a91cca begun at=1617725107 (0s ago), job type=backup
+0000.042 (0) Scheduling a resumption (1) after 300 seconds (1617725407) in case this run gets aborted
+0000.074 (0) Checking if we have a zip executable available
+0000.076 (0) Testing: /usr/bin/zip
+0000.098 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.100 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.101 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.102 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.103 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.115 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.117 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.137 (0) Working binary zip found: /usr/bin/zip
+0000.139 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.140 (0) Creation of backups of directories: beginning
+0000.144 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.831 (0) Total entities for the zip file: 877 directories, 5314 files (0 skipped as non-modified), 55.8 MB
+0000.841 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.865 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.879 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.891 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.898 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.910 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.918 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.928 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.937 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.953 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.955 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 5314 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.098 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: size is now: 3.20 MB
+0002.113 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1100 files added (on-disk size: 3276.2 KB)
+0002.127 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1200 files added (on-disk size: 3276.2 KB)
+0002.142 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1300 files added (on-disk size: 3276.2 KB)
+0002.162 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1400 files added (on-disk size: 3276.2 KB)
+0002.177 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1500 files added (on-disk size: 3276.2 KB)
+0002.196 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1600 files added (on-disk size: 3276.2 KB)
+0002.214 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1700 files added (on-disk size: 3276.2 KB)
+0002.237 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1800 files added (on-disk size: 3276.2 KB)
+0002.251 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 1900 files added (on-disk size: 3276.2 KB)
+0002.268 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2000 files added (on-disk size: 3276.2 KB)
+0002.270 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.1 MB, 5314 files batched, 1001 (2002) added so far); re-opening (prior size: 3276.2 KB)
+0003.140 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: size is now: 4.80 MB
+0003.181 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2100 files added (on-disk size: 4870.5 KB)
+0003.203 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2200 files added (on-disk size: 4870.5 KB)
+0003.223 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2300 files added (on-disk size: 4870.5 KB)
+0003.245 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2400 files added (on-disk size: 4870.5 KB)
+0003.260 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2500 files added (on-disk size: 4870.5 KB)
+0003.275 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2600 files added (on-disk size: 4870.5 KB)
+0003.288 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2700 files added (on-disk size: 4870.5 KB)
+0003.305 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2800 files added (on-disk size: 4870.5 KB)
+0003.326 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 2900 files added (on-disk size: 4870.5 KB)
+0003.343 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3000 files added (on-disk size: 4870.5 KB)
+0003.345 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 5314 files batched, 1001 (3003) added so far); re-opening (prior size: 4870.5 KB)
+0004.576 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: size is now: 8.50 MB
+0004.690 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3100 files added (on-disk size: 8715.9 KB)
+0004.722 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3200 files added (on-disk size: 8715.9 KB)
+0004.738 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3300 files added (on-disk size: 8715.9 KB)
+0004.757 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3400 files added (on-disk size: 8715.9 KB)
+0004.791 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3500 files added (on-disk size: 8715.9 KB)
+0004.811 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3600 files added (on-disk size: 8715.9 KB)
+0004.855 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3700 files added (on-disk size: 8715.9 KB)
+0004.881 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3800 files added (on-disk size: 8715.9 KB)
+0004.900 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 3900 files added (on-disk size: 8715.9 KB)
+0004.921 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4000 files added (on-disk size: 8715.9 KB)
+0004.924 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.8 MB, 5314 files batched, 1001 (4004) added so far); re-opening (prior size: 8715.9 KB)
+0006.689 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: size is now: 13.50 MB
+0006.732 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4100 files added (on-disk size: 13829.7 KB)
+0006.750 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4200 files added (on-disk size: 13829.7 KB)
+0006.774 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4300 files added (on-disk size: 13829.7 KB)
+0006.798 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4400 files added (on-disk size: 13829.7 KB)
+0006.822 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4500 files added (on-disk size: 13829.7 KB)
+0006.848 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4600 files added (on-disk size: 13829.7 KB)
+0006.870 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4700 files added (on-disk size: 13829.7 KB)
+0006.894 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4800 files added (on-disk size: 13829.7 KB)
+0006.914 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 4900 files added (on-disk size: 13829.7 KB)
+0006.945 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 5000 files added (on-disk size: 13829.7 KB)
+0006.948 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 5314 files batched, 1001 (5005) added so far); re-opening (prior size: 13829.7 KB)
+0008.031 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 5100 files added (on-disk size: 15728.4 KB)
+0008.052 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 5200 files added (on-disk size: 15728.4 KB)
+0008.073 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip.tmp: 5300 files added (on-disk size: 15728.4 KB)
+0008.991 (0) Created plugins zip (0) - 17010 KB in 8.8 s (1923.3 KB/s) (sha1: b167c7d0d929ccd71d75ba723126247f3c6d96ed, sha256: 7dcb1af423296cc88d7af31eb4ea9a7f42a4ec4fc2935b0d55449f6e82d4bebd)
+0009.000 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.069 (0) Total entities for the zip file: 15 directories, 270 files (0 skipped as non-modified), 5.2 MB
+0009.080 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.088 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.568 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip.tmp: size is now: 4.10 MB
+0009.687 (0) Created themes zip (0) - 4160.6 KB in 0.7 s (6074.9 KB/s) (sha1: bbee26b13755c69f9111276caf4d20e9a13e7475, sha256: a53670a450f38a27f8a64f9fd3b0935f96870015dd6044fa4e64a4b26e5c02e6)
+0009.690 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.691 (0) Looking for candidates to backup in: /virtual/velsuede/public_html/doublog.com/wp-content/uploads
+0009.698 (0) finding files: 2015: adding to list (1)
+0009.711 (0) finding files: 2018: adding to list (2)
+0009.716 (0) finding files: 2020: adding to list (3)
+0009.718 (0) finding files: 2016: adding to list (4)
+0009.719 (0) finding files: crayon-syntax-highlighter: adding to list (5)
+0009.720 (0) finding files: 2019: adding to list (6)
+0009.721 (0) finding files: 2013: adding to list (7)
+0009.722 (0) finding files: 2021: adding to list (8)
+0009.727 (0) finding files: .well-known: adding to list (9)
+0009.728 (0) finding files: favicon.ico: adding to list (10)
+0009.729 (0) finding files: 2014: adding to list (11)
+0009.730 (0) finding files: favicon.gif: adding to list (12)
+0009.731 (0) finding files: wpo-plugins-tables-list.json: adding to list (13)
+0009.732 (0) finding files: 2017: adding to list (14)
+0009.732 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.782 (0) Total entities for the zip file: 63 directories, 52 files (0 skipped as non-modified), 1.5 MB
+0009.913 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip.tmp: size is now: 0.90 MB
+0009.940 (0) Created uploads zip (0) - 971.6 KB in 0.2 s (4717.5 KB/s) (sha1: 0edf1c307e579832c15296c41eff3da7dad48d35, sha256: 021a5d5d9d818cccb126ce75d81a4c3f3311da115eaf179d7efdb91c2e33df06)
+0009.943 (0) No backup of wpcore: excluded by user's options
+0009.948 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.950 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.951 (0) Looking for candidates to backup in: /virtual/velsuede/public_html/doublog.com/wp-content
+0009.952 (0) finding files: wptouch-data: adding to list (1)
+0009.954 (0) finding files: upgrade: skipping: excluded by options
+0009.955 (0) finding files: cache: skipping: excluded by options
+0009.957 (0) finding files: themes: skipping: this is the themes directory
+0009.958 (0) finding files: plugins: skipping: this is the plugins directory
+0009.962 (0) finding files: languages: adding to list (2)
+0009.963 (0) finding files: lock.txt: adding to list (3)
+0009.965 (0) finding files: index.php: adding to list (4)
+0009.965 (0) finding files: updraft: skipping: this is the updraft directory
+0009.966 (0) finding files: uploads: skipping: this is the uploads directory
+0009.986 (0) Total entities for the zip file: 15 directories, 100 files (0 skipped as non-modified), 3.5 MB
+0009.995 (0) Zip: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.349 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip.tmp: size is now: 1.10 MB
+0010.388 (0) Created others zip (0) - 1148.5 KB in 0.4 s (2735.9 KB/s) (sha1: b42f8c85895e650bb370f4d7dbaa9b92e7c917c7, sha256: 28b5631472fdc23a942b788ab4504f4fabf85a7c1827560e2cb26cc8d0f35e76)
+0010.390 (0) No backup of more: excluded by user's options
+0010.400 (0) Saving backup status to database (elements: 8)
+0010.407 (0) Beginning creation of database dump (WordPress DB)
+0010.408 (0) Couldn't get the sql_mode value (N;)
+0010.411 (0) SQL compatibility mode successfully changed to 
+0010.419 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0010.502 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+0010.512 (0) Binary mysqldump: error (code: 5)
+0010.515 (0) Testing potential mysqldump binary: /bin/mysqldump
+0010.603 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+0010.624 (0) Binary mysqldump: error (code: 5)
+0010.644 (0) Table wp_options: Total expected rows (approximate): 867
+0010.695 (0) Table wp_options: Rows added in this batch (next record: 115571): 866 (uncompressed bytes in this segment=487095) in 0.05 seconds
+0010.702 (0) Table wp_options: finishing file(s) (2, 93.8 KB)
+0010.705 (0) Table wp_users: Total expected rows (approximate): 713
+0010.729 (0) Table wp_users: Rows added in this batch (next record: 713): 713 (uncompressed bytes in this segment=147010) in 0.02 seconds
+0010.744 (0) Table wp_users: finishing file(s) (2, 64.8 KB)
+0010.748 (0) Table wp_usermeta: Total expected rows (approximate): 11004
+0010.877 (0) Table wp_usermeta: Rows added in this batch (next record: 11010): 11004 (uncompressed bytes in this segment=580646) in 0.13 seconds
+0010.886 (0) Table wp_usermeta: finishing file(s) (2, 106 KB)
+0010.890 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.893 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.00 seconds
+0010.901 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.909 (0) Table wp_comments: Total expected rows (approximate): 95
+0010.919 (0) Table wp_comments: Rows added in this batch (next record: 217): 95 (uncompressed bytes in this segment=25677) in 0.00 seconds
+0010.932 (0) Table wp_comments: finishing file(s) (2, 7.2 KB)
+0010.937 (0) Table wp_links: Total expected rows (approximate): 14
+0010.940 (0) Table wp_links: Rows added in this batch (next record: 21): 14 (uncompressed bytes in this segment=2884) in 0.00 seconds
+0010.949 (0) Table wp_links: finishing file(s) (2, 0.9 KB)
+0010.960 (0) Table wp_postmeta: Total expected rows (approximate): 2312
+0011.029 (0) Table wp_postmeta: Rows added in this batch (next record: 5935): 2312 (uncompressed bytes in this segment=97595) in 0.07 seconds
+0011.036 (0) Table wp_postmeta: finishing file(s) (2, 19 KB)
+0011.049 (0) Table wp_posts: Total expected rows (approximate): 608
+0011.158 (0) Table wp_posts: Rows added in this batch (next record: 1852): 608 (uncompressed bytes in this segment=1025746) in 0.10 seconds
+0011.176 (0) Table wp_posts: finishing file(s) (2, 345.5 KB)
+0011.184 (0) Table wp_term_relationships: Total expected rows (approximate): 1597
+0011.198 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1597 (uncompressed bytes in this segment=25870) in 0.01 seconds
+0011.210 (0) Table wp_term_relationships: finishing file(s) (2, 5 KB)
+0011.216 (0) Table wp_term_taxonomy: Total expected rows (approximate): 545
+0011.233 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 552): 545 (uncompressed bytes in this segment=19784) in 0.01 seconds
+0011.239 (0) Table wp_term_taxonomy: finishing file(s) (2, 3.5 KB)
+0011.245 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0011.248 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.00 seconds
+0011.254 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0011.258 (0) Table wp_terms: Total expected rows (approximate): 544
+0011.265 (0) Table wp_terms: Rows added in this batch (next record: 552): 544 (uncompressed bytes in this segment=24299) in 0.01 seconds
+0011.273 (0) Table wp_terms: finishing file(s) (2, 8.8 KB)
+0011.279 (0) Table wp_points_users: Total expected rows (approximate): 187
+0011.285 (0) Table wp_points_users: Rows added in this batch (next record: 187): 187 (uncompressed bytes in this segment=21827) in 0.00 seconds
+0011.291 (0) Table wp_points_users: finishing file(s) (2, 3.2 KB)
+0011.294 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0011.297 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0011.302 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0011.305 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0011.308 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=895) in 0.00 seconds
+0011.315 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0011.319 (0) Table wp_wsc_gocodes: Total expected rows (approximate): 6
+0011.325 (0) Table wp_wsc_gocodes: Rows added in this batch (next record: 7): 6 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0011.331 (0) Table wp_wsc_gocodes: finishing file(s) (2, 0.6 KB)
+0011.334 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_options.table.tmpr115572.gz (1/16): adding to final database dump
+0011.380 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_options.table.gz (2/16): adding to final database dump
+0011.383 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_users.table.tmpr714.gz (3/16): adding to final database dump
+0011.409 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_users.table.gz (4/16): adding to final database dump
+0011.411 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_usermeta.table.tmpr11011.gz (5/16): adding to final database dump
+0011.459 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_usermeta.table.gz (6/16): adding to final database dump
+0011.461 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_commentmeta.table.tmpr0.gz (7/16): adding to final database dump
+0011.462 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_commentmeta.table.gz (8/16): adding to final database dump
+0011.463 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_comments.table.tmpr218.gz (9/16): adding to final database dump
+0011.467 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_comments.table.gz (10/16): adding to final database dump
+0011.469 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_links.table.tmpr22.gz (11/16): adding to final database dump
+0011.471 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_links.table.gz (12/16): adding to final database dump
+0011.472 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_postmeta.table.tmpr5936.gz (13/16): adding to final database dump
+0011.485 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_postmeta.table.gz (14/16): adding to final database dump
+0011.488 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_posts.table.tmpr1853.gz (15/16): adding to final database dump
+0011.580 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_posts.table.gz (16/16): adding to final database dump
+0011.588 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_term_relationships.table.tmpr100001.gz (17/16): adding to final database dump
+0011.593 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_term_relationships.table.gz (18/16): adding to final database dump
+0011.595 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_term_taxonomy.table.tmpr553.gz (19/16): adding to final database dump
+0011.598 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_term_taxonomy.table.gz (20/16): adding to final database dump
+0011.600 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_termmeta.table.tmpr0.gz (21/16): adding to final database dump
+0011.600 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_termmeta.table.gz (22/16): adding to final database dump
+0011.601 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_terms.table.tmpr553.gz (23/16): adding to final database dump
+0011.606 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_terms.table.gz (24/16): adding to final database dump
+0011.615 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_points_users.table.tmpr188.gz (25/16): adding to final database dump
+0011.618 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_points_users.table.gz (26/16): adding to final database dump
+0011.619 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_tm_taskmeta.table.tmpr0.gz (27/16): adding to final database dump
+0011.621 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_tm_taskmeta.table.gz (28/16): adding to final database dump
+0011.622 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_tm_tasks.table.tmpr0.gz (29/16): adding to final database dump
+0011.623 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_tm_tasks.table.gz (30/16): adding to final database dump
+0011.624 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_wsc_gocodes.table.tmpr8.gz (31/16): adding to final database dump
+0011.626 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db-table-wp_wsc_gocodes.table.gz (32/16): adding to final database dump
+0011.634 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz: finished writing out complete database file (640 KB)
+0011.661 (0) Total database tables backed up: 16 (backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz, size: 676037, sha1: ae0a47270059fe942d6859fdb2dec181266cbf33, sha256: 856ac4fcd8d969aaf49db3c6f6b8f5627e9fc374aa80a91ba5a0f04843ddcde1)
+0011.668 (0) Attempting to encrypt backup file
+0011.671 (0) Encryption being requested: file_size: 660.2 KB memory_limit: 500M (used: 8.7M | 4M)
+0011.702 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz: encryption successful: 660.2KB in 0.02s (26774KB/s) (sha1 checksum: 7fca01e0891697364fcdf4d8edd8ee5dbf6a89a2)
+0011.715 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz: encryption successful: 660.2KB in 0.02s (26774KB/s) (sha256 checksum: c761c11da46f048723a95cba342c116041583f61ba74a7c4c57915a10c37ff42)
+0011.724 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.725 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.726 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.727 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.728 (0) backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt: db: This file has not yet been successfully uploaded: will queue
+0011.729 (0) Saving backup history. Total backup size: 23.4 MB
+0011.733 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.737 (0) Cloud backup selection (1/2): googledrive with instance (1/1)
+0011.739 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-1e67821c20b82d969c7e7dc8bd63d0fd)
+0014.450 (0) Google Drive: quota usage: used=70041 MB, total=10555801 MB, available=10485760 MB
+0014.455 (0) Google Drive: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip: Attempting to upload to Google Drive (into folder id: 1RCGH07zsl8w2eiLAHff_YVZ9lnRBn2-p)
+0016.393 (0) Googledrive chunked upload: 6 % uploaded (1048576)
+0017.308 (0) Googledrive chunked upload: 12 % uploaded (2097152)
+0018.789 (0) Googledrive chunked upload: 18.1 % uploaded (3145728)
+0020.201 (0) Googledrive chunked upload: 24.1 % uploaded (4194304)
+0021.704 (0) Googledrive chunked upload: 30.1 % uploaded (5242880)
+0022.695 (0) Googledrive chunked upload: 36.1 % uploaded (6291456)
+0023.730 (0) Googledrive chunked upload: 42.1 % uploaded (7340032)
+0024.714 (0) Googledrive chunked upload: 48.2 % uploaded (8388608)
+0026.972 (0) Googledrive chunked upload: 54.2 % uploaded (9437184)
+0027.951 (0) Googledrive chunked upload: 60.2 % uploaded (10485760)
+0029.678 (0) Googledrive chunked upload: 66.2 % uploaded (11534336)
+0031.579 (0) Googledrive chunked upload: 72.2 % uploaded (12582912)
+0033.347 (0) Googledrive chunked upload: 78.3 % uploaded (13631488)
+0035.606 (0) Googledrive chunked upload: 84.3 % uploaded (14680064)
+0038.166 (0) Googledrive chunked upload: 90.3 % uploaded (15728640)
+0039.543 (0) Googledrive chunked upload: 96.3 % uploaded (16777216)
+0043.284 (0) Googledrive chunked upload: 100 % uploaded (16777216)
+0043.290 (0) Google Drive: OK: Archive backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip uploaded in 28.83 seconds
+0043.291 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip (googledrive, more services to follow)
+0046.810 (0) Google Drive: quota usage: used=70057.6 MB, total=10555817.6 MB, available=10485760 MB
+0046.814 (0) Google Drive: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip: Attempting to upload to Google Drive (into folder id: 1RCGH07zsl8w2eiLAHff_YVZ9lnRBn2-p)
+0047.795 (0) Googledrive chunked upload: 24.6 % uploaded (1048576)
+0048.340 (0) Googledrive chunked upload: 49.2 % uploaded (2097152)
+0048.731 (0) Googledrive chunked upload: 73.8 % uploaded (3145728)
+0049.397 (0) Googledrive chunked upload: 98.4 % uploaded (4194304)
+0050.978 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0050.984 (0) Google Drive: OK: Archive backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip uploaded in 4.17 seconds
+0050.985 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip (googledrive, more services to follow)
+0051.318 (0) Google Drive: quota usage: used=70061.7 MB, total=10555821.7 MB, available=10485760 MB
+0051.319 (0) Google Drive: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip: Attempting to upload to Google Drive (into folder id: 1RCGH07zsl8w2eiLAHff_YVZ9lnRBn2-p)
+0053.750 (0) Googledrive chunked upload: 100 % uploaded
+0053.755 (0) Google Drive: OK: Archive backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip uploaded in 2.43 seconds
+0053.756 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip (googledrive, more services to follow)
+0054.078 (0) Google Drive: quota usage: used=70062.6 MB, total=10555822.6 MB, available=10485760 MB
+0054.080 (0) Google Drive: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip: Attempting to upload to Google Drive (into folder id: 1RCGH07zsl8w2eiLAHff_YVZ9lnRBn2-p)
+0055.223 (0) Googledrive chunked upload: 89.2 % uploaded (1048576)
+0056.503 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0056.508 (0) Google Drive: OK: Archive backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip uploaded in 2.43 seconds
+0056.508 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip (googledrive, more services to follow)
+0057.230 (0) Google Drive: quota usage: used=70063.8 MB, total=10555823.8 MB, available=10485760 MB
+0057.240 (0) Google Drive: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt: Attempting to upload to Google Drive (into folder id: 1RCGH07zsl8w2eiLAHff_YVZ9lnRBn2-p)
+0059.361 (0) Googledrive chunked upload: 100 % uploaded
+0059.367 (0) Google Drive: OK: Archive backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt uploaded in 2.12 seconds
+0059.368 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt (googledrive, more services to follow)
+0059.373 (0) Cloud backup selection (2/2): onedrive with instance (1/1) (last)
+0059.376 (0) Beginning dispatch of backup to remote (onedrive) (instance identifier s-76debeb4d06c169d8663590037187c83)
+0060.216 (0) Microsoft OneDrive: upload (account owner: Zhang Fan): attempt: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip
+0060.218 (0) Microsoft OneDrive: begin cloud upload to OneDrive International (using Microsoft Graph API)
+0060.795 (0) Microsoft OneDrive: Your OneDrive quota usage: 0.1 % used, 5238406.3 MB available. Upload folder: UpdraftPlus
+0062.562 (0) OneDrive upload: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip (chunks: 6, of size: 3276800) -> onedrive://UpdraftPlus/backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip (0)
+0066.346 (0) Onedrive chunked upload: 18.8 % uploaded (1)
+0073.978 (0) Onedrive chunked upload: 37.6 % uploaded (2)
+0077.559 (0) Onedrive chunked upload: 56.4 % uploaded (3)
+0082.638 (0) Onedrive chunked upload: 75.2 % uploaded (4)
+0085.979 (0) Onedrive chunked upload: 94.1 % uploaded (5)
+0094.349 (0) Onedrive chunked upload: 100 % uploaded (6)
+0094.353 (0) OneDrive upload: success
+0094.354 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip
+0094.358 (0) Deleting local file: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-plugins.zip: OK
+0094.358 (0) Microsoft OneDrive: upload (account owner: Zhang Fan): attempt: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip
+0094.359 (0) Microsoft OneDrive: begin cloud upload to OneDrive International (using Microsoft Graph API)
+0094.624 (0) Microsoft OneDrive: Your OneDrive quota usage: 0.1 % used, 5238389.7 MB available. Upload folder: UpdraftPlus
+0098.128 (0) OneDrive upload: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip (chunks: 2, of size: 3276800) -> onedrive://UpdraftPlus/backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip (0)
+0108.391 (0) Onedrive chunked upload: 76.9 % uploaded (1)
+0131.541 (0) Onedrive chunked upload: 100 % uploaded (2)
+0131.545 (0) OneDrive upload: success
+0131.546 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip
+0131.549 (0) Deleting local file: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-themes.zip: OK
+0131.550 (0) Microsoft OneDrive: upload (account owner: Zhang Fan): attempt: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip
+0131.550 (0) Microsoft OneDrive: begin cloud upload to OneDrive International (using Microsoft Graph API)
+0131.747 (0) Microsoft OneDrive: Your OneDrive quota usage: 0.1 % used, 5238385.6 MB available. Upload folder: UpdraftPlus
+0134.293 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip
+0134.297 (0) Deleting local file: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-uploads.zip: OK
+0134.299 (0) Microsoft OneDrive: upload (account owner: Zhang Fan): attempt: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip
+0134.300 (0) Microsoft OneDrive: begin cloud upload to OneDrive International (using Microsoft Graph API)
+0135.020 (0) Microsoft OneDrive: Your OneDrive quota usage: 0.1 % used, 5238384.7 MB available. Upload folder: UpdraftPlus
+0136.810 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip
+0136.813 (0) Deleting local file: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-others.zip: OK
+0136.814 (0) Microsoft OneDrive: upload (account owner: Zhang Fan): attempt: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt
+0136.815 (0) Microsoft OneDrive: begin cloud upload to OneDrive International (using Microsoft Graph API)
+0137.005 (0) Microsoft OneDrive: Your OneDrive quota usage: 0.1 % used, 5238383.6 MB available. Upload folder: UpdraftPlus
+0138.851 (0) Recording as successfully uploaded: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt
+0138.859 (0) Deleting local file: backup_2021-04-07-0005_wwwdoublogcom_633d08a91cca-db.gz.crypt: OK
+0138.864 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0138.866 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1605370020, 1604275500, 1602029220, 1601683560, 1601222580, 1600142520, 1600128180, 1599321720
+0138.867 (0) Number of backup sets in history: 15; groups (db): 1
+0138.868 (0) Examining (for databases) backup set with group_id=0, nonce=633d08a91cca, datestamp=1617725107 (Apr 06 2021 16:05:07)
+0138.869 (0) This backup set is the backup set just made, so will not be deleted.
+0138.869 (0) Examining (for databases) backup set with group_id=0, nonce=9ae94e977966, datestamp=1617717919 (Apr 06 2021 14:05:19)
+0138.869 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0138.870 (0) Examining (for databases) backup set with group_id=0, nonce=3ed375f76eab, datestamp=1617710929 (Apr 06 2021 12:08:49)
+0138.870 (0) 1617710929: db: this set includes a database (backup_2021-04-06-2008_wwwdoublogcom_3ed375f76eab-db.gz.crypt); db count is now 2
+0138.870 (0) 1617710929: db: over retain limit (2); will delete this database
+0138.870 (0) Delete file: backup_2021-04-06-2008_wwwdoublogcom_3ed375f76eab-db.gz.crypt, service=googledrive
+0140.791 (0) Google Drive: backup_2021-04-06-2008_wwwdoublogcom_3ed375f76eab-db.gz.crypt: Deletion successful
+0140.793 (0) Delete file: backup_2021-04-06-2008_wwwdoublogcom_3ed375f76eab-db.gz.crypt, service=onedrive
+0140.794 (0) Delete remote files: backup_2021-04-06-2008_wwwdoublogcom_3ed375f76eab-db.gz.crypt
+0141.821 (0) This backup set is now empty; will remove from history
+0141.822 (0) Deleting log file (log.3ed375f76eab.txt)
+0141.824 (0) Examining (for databases) backup set with group_id=0, nonce=0a949d90acc3, datestamp=1617681920 (Apr 06 2021 04:05:20)
+0141.824 (0) Examining (for databases) backup set with group_id=0, nonce=1f8d8037d7e9, datestamp=1617639319 (Apr 05 2021 16:15:19)
+0141.824 (0) Examining (for databases) backup set with group_id=0, nonce=f3fe876bb954, datestamp=1611337692 (Jan 22 2021 17:48:12)
+0141.824 (0) Examining (for databases) backup set with group_id=0, nonce=d2c458d4cd75, datestamp=1611335881 (Jan 22 2021 17:18:01)
+0141.824 (0) Number of backup sets in history: 14; groups (files): 1
+0141.825 (0) Examining (for files) backup set with nonce=633d08a91cca, datestamp=1617725107 (Apr 06 2021 16:05:07)
+0141.825 (0) This backup set is the backup set just made, so will not be deleted.
+0141.826 (0) This backup set is the backup set just made, so will not be deleted.
+0141.826 (0) This backup set is the backup set just made, so will not be deleted.
+0141.826 (0) This backup set is the backup set just made, so will not be deleted.
+0141.826 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0141.827 (0) Examining (for files) backup set with nonce=9ae94e977966, datestamp=1617717919 (Apr 06 2021 14:05:19)
+0141.827 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0141.828 (0) Examining (for files) backup set with nonce=0a949d90acc3, datestamp=1617681920 (Apr 06 2021 04:05:20)
+0141.828 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0141.829 (0) Examining (for files) backup set with nonce=1f8d8037d7e9, datestamp=1617639319 (Apr 05 2021 16:15:19)
+0141.829 (0) plugins: over retain limit (2); will delete this file entity
+0141.829 (0) themes: over retain limit (2); will delete this file entity
+0141.829 (0) uploads: over retain limit (2); will delete this file entity
+0141.829 (0) others: over retain limit (2); will delete this file entity
+0141.829 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-plugins.zip, service=googledrive
+0141.830 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-themes.zip, service=googledrive
+0141.831 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-uploads.zip, service=googledrive
+0141.832 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-others.zip, service=googledrive
+0143.277 (0) Google Drive: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-others.zip: Deletion successful
+0144.043 (0) Google Drive: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-uploads.zip: Deletion successful
+0144.928 (0) Google Drive: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-themes.zip: Deletion successful
+0145.618 (0) Google Drive: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-plugins.zip: Deletion successful
+0145.623 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-plugins.zip, service=onedrive
+0145.624 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-themes.zip, service=onedrive
+0145.625 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-uploads.zip, service=onedrive
+0145.625 (0) Delete file: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-others.zip, service=onedrive
+0145.626 (0) Delete remote files: backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-plugins.zipbackup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-themes.zipbackup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-uploads.zipbackup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-others.zip
+0146.779 (0) backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-plugins.zip: Delete succeeded
+0146.781 (0) backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-themes.zip: Delete succeeded
+0146.781 (0) backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-uploads.zip: Delete succeeded
+0146.782 (0) backup_2021-04-06-0015_wwwdoublogcom_1f8d8037d7e9-others.zip: Delete succeeded
+0146.785 (0) This backup set is now empty; will remove from history
+0146.786 (0) Deleting log file (log.1f8d8037d7e9.txt)
+0146.787 (0) Examining (for files) backup set with nonce=f3fe876bb954, datestamp=1611337692 (Jan 22 2021 17:48:12)
+0146.788 (0) This backup set (1611337692) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0146.788 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0146.789 (0) Examining (for files) backup set with nonce=d2c458d4cd75, datestamp=1611335881 (Jan 22 2021 17:18:01)
+0146.789 (0) This backup set (1611335881) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0146.789 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0146.789 (0) Retain: saving new backup history (sets now: 13) and finishing retain operation
+0146.794 (0) Resume backup (633d08a91cca, 0): finish run
+0146.799 (0) Decremented the semaphore (fd) by 1
+0146.801 (0) Semaphore (fd) unlocked
+0146.801 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0146.805 (0) The backup apparently succeeded and is now complete
+0146.812 (0) No report will be sent to this address, as it is configured to receive them only when there are errors or warnings: ccfre...
+0146.813 (0) 备份显然是成功的，现在已经完成了。
